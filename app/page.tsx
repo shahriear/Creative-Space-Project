@@ -1,9 +1,13 @@
 import React from 'react'
+import StartProject from "./components/Contact/StartProject";
+import VisitOffice from "./components/Contact/VisitOffice";
+
 
 const page = () => {
   return (
     <>
-      <h1>shuvo</h1>
+      <VisitOffice/>
+      <StartProject/>
     </>
   )
 }

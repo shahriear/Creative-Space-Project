@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,7 +21,59 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* Visit Our Office Section---------- */
+.visit-office {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.visit-office .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #010e08;
+}
+
+.visit-office .subtitle {
+  color: #555;
+  margin-top: 8px;
+  margin-bottom: 45px;
+}
+
+.map-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  width: 80%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Start Project Section */
+.start-project {
+  background-color: #26623b;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.start-project .heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.start-project .text {
+  font-size: 1rem;
+  opacity: 0.9;
+  
 }
